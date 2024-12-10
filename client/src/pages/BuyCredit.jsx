@@ -93,9 +93,9 @@ const BuyCredit = () => {
               <button onClick={() => paymentRazorpay(item.id)} className='w-full flex justify-center gap-2 border border-gray-400 mt-2 text-sm rounded-md py-2.5 min-w-52 hover:bg-blue-50 hover:border-blue-400'>
                 <img className='h-4' src={assets.razorpay_logo} alt="" />
               </button>
-              <button onClick={() => paymentStripe(item.id)} className='w-full flex justify-center gap-2 border border-gray-400 mt-2 text-sm rounded-md py-2.5 min-w-52 hover:bg-blue-50 hover:border-blue-400'>
+              {/* <button onClick={() => paymentStripe(item.id)} className='w-full flex justify-center gap-2 border border-gray-400 mt-2 text-sm rounded-md py-2.5 min-w-52 hover:bg-blue-50 hover:border-blue-400'>
                 <img className='h-4' src={assets.stripe_logo} alt="" />
-              </button>
+              </button> */}
             </div>
           </div>
         ))}
