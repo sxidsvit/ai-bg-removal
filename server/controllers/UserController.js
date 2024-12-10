@@ -5,11 +5,11 @@ import razorpay from 'razorpay';
 import stripe from "stripe";
 
 // Gateway Initialize
-const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY)
-const razorpayInstance = new razorpay({
-    key_id: process.env.RAZORPAY_KEY_ID,
-    key_secret: process.env.RAZORPAY_KEY_SECRET,
-})
+// const stripeInstance = new stripe(process.env.STRIPE_SECRET_KEY)
+// const razorpayInstance = new razorpay({
+//     key_id: process.env.RAZORPAY_KEY_ID,
+//     key_secret: process.env.RAZORPAY_KEY_SECRET,
+// })
 
 // API Controller Function to Manage Clerk User with database
 const clerkWebhooks = async (req, res) => {
@@ -275,7 +275,7 @@ const paymentStripe = async (req, res) => {
             line_items: line_items,
             mode: 'payment',
         })
-        
+
         res.json({ success: true, session_url: session.url });
 
     } catch (error) {
