@@ -11,7 +11,7 @@ import stripe from "stripe";
 //     key_secret: process.env.RAZORPAY_KEY_SECRET,
 // })
 
-// API Controller Function to Manage Clerk User with database
+// API Controller Function to Manage Clerk User with databaseА
 const clerkWebhooks = async (req, res) => {
 
     try {
