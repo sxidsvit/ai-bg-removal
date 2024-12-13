@@ -1,7 +1,9 @@
 
 ## Erase Background 
 
-[SITE](https://erase-bg-sxidsvit.vercel.app/)
+<!-- [SITE](https://erase-bg-sxidsvit.vercel.app/) -->
+<a href="https://erase-bg-sxidsvit.vercel.app/" target="_blank">CITE</a>
+
 
 ### Core Application Idea 
 The  site is designed to automatically remove background from images. The /remove-bg API route, which is used for image processing and background removal. The site provides a simple to use web interface where the user can upload an image and then get a version without background.
